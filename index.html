@@ -6,32 +6,19 @@
   <link rel="stylesheet" href="Website/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Kalash Marriage Lawn Reviews</h1>
-    <p class="subtitle">Generate a unique review, copy it, and post directly in Google Maps.</p>
-
-    <div class="review-box">
+<section class="generator">
+    <h2>DROP A QUICK REVIEW</h2>
+    <div class="review-card">
       <p id="reviewText"></p>
-      <button id="copyBtn" title="Copy review">📋</button>
+      <div class="review-actions">
+        <button id="copyBtn">📋 Copy</button>
+        <button id="newReviewBtn">🔄 New Review</button>
+        <a id="mapsBtn" class="review-btn" target="_blank">⭐ Post Review</a>
+      </div>
     </div>
-
-    <div class="actions">
-      <button id="newReviewBtn">🔄 New Review</button>
-      <!-- Button that opens Google Maps app -->
-     <a 
-  href="https://search.google.com/local/writereview?placeid=ChIJMRToX2fimzkRUan3u1DooSM" 
-  target="_blank" 
-  rel="noopener" 
-  class="review-btn">
-  ⭐ Post Review
-</a>
-
-    </div>
-
     <p id="copyMsg" class="copy-msg"></p>
-  </div>
+  </section>
 
   <script src="script.js"></script>
 </body>
 </html>
-
