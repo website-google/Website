@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalash Marriage Lawn Review Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Kalash Marriage Lawn Reviews</h1>
+    <p class="subtitle">Generate a unique review, copy it, and post directly in Google Maps.</p>
+
+    <div class="review-box">
+      <p id="reviewText"></p>
+      <button id="copyBtn" title="Copy review">📋</button>
+    </div>
+
+    <div class="actions">
+      <button id="newReviewBtn">🔄 New Review</button>
+      <!-- Button that opens Google Maps app -->
+     <a 
+  href="https://search.google.com/local/writereview?placeid=ChIJMRToX2fimzkRUan3u1DooSM" 
+  target="_blank" 
+  rel="noopener" 
+  class="review-btn">
+  ⭐ Post Review
+</a>
+
+    </div>
+
+    <p id="copyMsg" class="copy-msg"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
